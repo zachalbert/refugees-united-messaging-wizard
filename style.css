@@ -1,3 +1,8 @@
+body {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
 .container{
   width:340px;
   margin:30px auto;
