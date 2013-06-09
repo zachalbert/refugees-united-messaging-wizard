@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>USSD Test</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" type="text/css" href="normalize.css"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div class="container">
+<section>
+</section>
+<section>
+
+<div class="response">
+
+<pre>
+"Hi, mohamed. I am looking for
+my..."
+
+1:Brother
+2:Sister
+*:Back
+</pre>
+
+</div>
+</section>
+<section>
+
+
+
+
+<form action="frame9.html" method="POST">
+
+
+
+
+
+<table cellpadding="0" cellspacing="0">
+<tr>
+<td><input type="text" name="request" id="request" autocomplete="off" /></td>
+<td style="padding-left:10px;" valign="middle"><input type="submit" value="Send"/></td>
+</tr>
+</table>
+</form>
+</section>
+<section class="sent" style="display:none;">
+<small><b>Sent:</b> 74*3***1*Irene</small>
+</section>
+<section style="margin-top:50px;">
+<a href="login.php">New session</a>
+</section>
+</div>
+<script>
+        document.getElementById('request').focus();
+    </script>
+</body>
+</html>
