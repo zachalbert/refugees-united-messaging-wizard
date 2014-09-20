@@ -9,6 +9,9 @@ This prototype attempts to address the following challenges with the current mes
 This is a dumb prototype, meant to step through a single use case to demonstrate the idea for the Global Hack for Good with Refugees United and Ericsson.
 
 To run:
+-------
 1. Clone the repo
+
 2. Open index.html in a browser
+
 3. Enter any information in the input field, which will step through the sequence of screens
